@@ -284,7 +284,7 @@ def SaveDataToSQL(data_R2048, data_S2048, data_ListFilesNames):
         server = '10.57.0.21'
         database = 'ShopsFaceRecognition'
         username = 'sa'
-        password = 'cW0Az4c5'
+        password = '********'
         cnxn = pyodbc.connect(
             'DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + server + ';DATABASE=' + database + ';UID=' + username + ';PWD=' + password)
         cursor = cnxn.cursor()
@@ -311,7 +311,7 @@ def ReadDataFromSQL():
         server = '10.57.0.21'
         database = 'ShopsFaceRecognition'
         username = 'sa'
-        password = 'cW0Az4c5'
+        password = '********'
         cnxn = pyodbc.connect(
             'DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + server + ';DATABASE=' + database + ';UID=' + username + ';PWD=' + password)
         cursor = cnxn.cursor()
@@ -1477,7 +1477,7 @@ class Thread_deleteFoderIfFilesLessTwo(Thread):
                 server = '10.57.0.21'
                 database = 'ShopsFaceRecognition'
                 username = 'sa'
-                password = 'cW0Az4c5'
+                password = '********'
                 cnxn = pyodbc.connect(
                     'DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + server + ';DATABASE=' + database + ';UID=' + username + ';PWD=' + password)
                 cursor = cnxn.cursor()
